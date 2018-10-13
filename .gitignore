@@ -64,3 +64,13 @@ hs_err_pid*
 
 *.log
 *.txt
+
+# JetBrains IntelliJ
+.idea/
+*.iws
+out/
+.idea_modules/
+*.iml
+
+# Maven
+target/

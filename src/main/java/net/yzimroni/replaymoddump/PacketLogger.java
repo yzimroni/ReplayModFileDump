@@ -1,12 +1,12 @@
 package net.yzimroni.replaymoddump;
 
-import org.spacehq.mc.protocol.data.game.values.TitleAction;
-import org.spacehq.mc.protocol.packet.ingame.server.ServerChatPacket;
-import org.spacehq.mc.protocol.packet.ingame.server.ServerPlayerListDataPacket;
-import org.spacehq.mc.protocol.packet.ingame.server.ServerPluginMessagePacket;
-import org.spacehq.mc.protocol.packet.ingame.server.ServerTitlePacket;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.protocol.data.game.TitleAction;
+import com.github.steveice10.mc.protocol.packet.ingame.server.ServerChatPacket;
+import com.github.steveice10.mc.protocol.packet.ingame.server.ServerPlayerListDataPacket;
+import com.github.steveice10.mc.protocol.packet.ingame.server.ServerPluginMessagePacket;
 
+import com.github.steveice10.mc.protocol.packet.ingame.server.ServerTitlePacket;
+import com.github.steveice10.packetlib.packet.Packet;
 import com.replaymod.replaystudio.PacketData;
 
 public class PacketLogger {
